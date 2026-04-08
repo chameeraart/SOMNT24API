@@ -1,0 +1,6 @@
+@SOMNT24API_HostAddress = http://localhost:5057
+
+GET {{SOMNT24API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

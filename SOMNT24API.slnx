@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SOMNT24API/SOMNT24API.csproj" />
+  <Project Path="SOMNT24BLL/SOMNT24BLL.csproj" Id="3d4f37b8-7ef5-49b8-9afd-9b17548fb628" />
+  <Project Path="SOMNT24DAL/SOMNT24DAL.csproj" Id="7cd05281-d892-440d-aa0d-cd5d72a35459" />
+  <Project Path="SOMNT24DOMAIN/SOMNT24DOMAIN.csproj" Id="0444e175-9c9c-4b2a-ba15-fa286a745e22" />
+</Solution>
