@@ -57,6 +57,7 @@ namespace SOMNT24DAL.Repositories
                 entity.LastUpdatedOn = DateTime.Now;
             }
             _context.ReturnTypes.Update(entity);
+            _context.Entry(entity).Property(x => x.RecID).IsModified = false;
             await _context.SaveChangesAsync();
         }
 
