@@ -20,7 +20,7 @@ namespace SOMNT24DOMAIN.Common
         {
             get
             {
-                return "taskmanagement";
+                return "SOMNT24API";
             }
         }
 
@@ -28,7 +28,7 @@ namespace SOMNT24DOMAIN.Common
         {
             get
             {
-                return "com.taskmanagement";
+                return "com.SOMNT24API";
             }
         }
     }

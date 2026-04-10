@@ -34,23 +34,7 @@ Run "npm install" to install dependencies.
 Modify the config.ts file to specify the API URL. For example, if the API is running at https://localhost:7019, update the apiUrl variable in config.ts accordingly.
 After completing these steps, you can run the Angular frontend.
 
-## Features To Be Implemented (TODO)
 
-Improve UI across all pages
-Add a list component with auto-search for:
-Module Code
-Return Category
-Implement input validation
-Fix edit functionality issues
-Add authentication & authorization
-Add notification support (e.g., SweetAlert / Toast)
-Need Handle Errors and Exceptions
-Need Handle Transactions(Begin,Commit,RollBack)
-
-## Concerns
-
-Module need to find table
-Return Category to find table
 
 ## Note
 

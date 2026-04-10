@@ -23,15 +23,6 @@ namespace SOMNT24API.Controllers
             return Ok(data);
         }
 
-        //[HttpGet("{id}")]
-        //public async Task<IActionResult> Get(string id)
-        //{
-        //    var data = await _service.GetByIdAsync(id);
-        //    if (data == null)
-        //        return NotFound();
-
-        //    return Ok(data);
-        //}
 
         [HttpGet("grid")]
         public async Task<IActionResult> GetGrid([FromQuery] string? search, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
@@ -43,7 +34,6 @@ namespace SOMNT24API.Controllers
             return Ok(data);
         }
 
-        // Keep your existing Get by ID
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(string id)
         {

@@ -29,6 +29,8 @@ builder.Services.AddDbContext<AppDbUserContext>(options =>
 // DI
 builder.Services.AddScoped<IReturnRepository, ReturnRepository>();
 builder.Services.AddScoped<IReturnService, ReturnService>();
+builder.Services.AddScoped<IParameterRepository, ParameterRepository>();
+builder.Services.AddScoped<IParameterService, ParameterService>();
 builder.Services.AddScoped<SessionManager>();
 
 builder.Services.AddCors(options =>

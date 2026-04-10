@@ -1,4 +1,5 @@
-﻿using SOMNT24DOMAIN.Models;
+﻿using SOMNT24DAL.Interfaces;
+using SOMNT24DOMAIN.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,3 +17,4 @@ namespace SOMNT24DAL.Interfaces
         Task DeleteAsync(string retnType);
     }
 }
+

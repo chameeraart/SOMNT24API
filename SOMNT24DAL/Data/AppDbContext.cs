@@ -15,6 +15,7 @@ namespace SOMNT24DAL.Data
         }
 
         public DbSet<ReturnType> ReturnTypes { get; set; }
+        public DbSet<Parameters> parameters { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
